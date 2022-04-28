@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-test-oc/Pods-test-oc-resources.sh
+${PODS_ROOT}/OrderPlaceSdkPrd/OrderPlaceSdk/Assets/AlipaySDK.bundle
+${PODS_ROOT}/OrderPlaceSdkPrd/OrderPlaceSdk/Assets/CodeScan.bundle
+${PODS_ROOT}/OrderPlaceSdkPrd/OrderPlaceSdk/Assets/back@1x.png
+${PODS_ROOT}/OrderPlaceSdkPrd/OrderPlaceSdk/Assets/back@2x.png
+${PODS_ROOT}/OrderPlaceSdkPrd/OrderPlaceSdk/Assets/back@3x.png
+${PODS_ROOT}/OrderPlaceSdkPrd/OrderPlaceSdk/Assets/home@1x.png
+${PODS_ROOT}/OrderPlaceSdkPrd/OrderPlaceSdk/Assets/home@2x.png
+${PODS_ROOT}/OrderPlaceSdkPrd/OrderPlaceSdk/Assets/home@3x.png
+${BUILT_PRODUCTS_DIR}/OrderPlaceSdkPrd/OrderPlaceSdkPrd.framework/MyAlertViewController.nib
+${BUILT_PRODUCTS_DIR}/OrderPlaceSdkPrd/OrderPlaceSdkPrd.framework/OrderPlaceStoryboard.storyboardc

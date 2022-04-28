@@ -1,0 +1,6 @@
+framework module OrderPlaceSdkPrd {
+  umbrella header "OrderPlaceSdkPrd-umbrella.h"
+
+  export *
+  module * { export * }
+}

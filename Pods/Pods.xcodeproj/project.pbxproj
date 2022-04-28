@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		036697155F8557E8ED29FBF2858701F7 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC28F7FEEF0A87581962F378C59AB55 /* Global.m */; };
+		054257DCE5541C4C3C496376C8880648 /* LBXScanNativeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D00D7299F7C1641FB3D1193D28CA780 /* LBXScanNativeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		099A70F4E7992998B8E683AC7B00D247 /* StripeAppleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F208B8264A0BC7D183F7614293DD4980 /* StripeAppleService.swift */; };
+		10F0CCB4B238FAD0D3EE65031F7AA8DE /* CardIOService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5BE3E1DE3496144EA45213B9D125BA /* CardIOService.swift */; };
+		11683B1FB73313E0214B284223187CEB /* StyleDIY.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7900BDA3B5DDEBAAA5DBF5547B8B4 /* StyleDIY.m */; };
+		12868F437A75F36235A699AC6F266A84 /* LBXScanNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0390EC7CD09250BF75F52945B1DB0CDB /* LBXScanNativeViewController.m */; };
+		148E5A8552589B7B72999776C9D32E70 /* LBXScanBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8648B79C6295C6046BC348842086C62F /* LBXScanBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16E07DCC82EFEE4C864DC30D3EDBCFDC /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985C79E745ACE031626A45CD9EC568C /* ScannerViewController.swift */; };
+		1852DAC3A1BCD4B0C86FB838A29C69FB /* LBXScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB20F095CCA7BC8AE426507173232D /* LBXScanView.m */; };
+		1ECE91B3337AED3ABCDE69EC9797171B /* CallbackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFE8EA45B425E47D02FE6635E39C9FB /* CallbackHandler.swift */; };
+		2964E8A3B7AFCCEC55FBB3F30E927200 /* LBXScanNetAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C9999E00D7E56F3D77BFE49C8ABC9C /* LBXScanNetAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD1A79085794385052E559B63CA07D9 /* OrderPlaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276EDEF43C85D358CDC7356CCACF12AD /* OrderPlaceService.swift */; };
+		2D7879E3A6650900E4F92D01D638559A /* LBXScanLineAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB8C115F8289C0F8FFD06F19A3F83D /* LBXScanLineAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3145C56FA6EB1E73810CA4828302AE37 /* LBXScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 90808AE5BC996695AFB8C4957A09A8C2 /* LBXScanViewStyle.m */; };
+		31D37FF7A2FD9F3D0E2433D364AB30B5 /* WKScriptMsgHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC269ABDF42F920BF891B2796BA83F /* WKScriptMsgHandler.swift */; };
+		341701D84E3C4E96C231F1E88EDF99EC /* Pods-test-oc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA597307F33A7410C95E4F600E5C208F /* Pods-test-oc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4949F4DB287DB854AFFB451472CF10CA /* JSInterfaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A208F88FEEF00F45CE0578BE6F96D0D /* JSInterfaceService.swift */; };
+		4F41B161C375BA8BC939AFE15E67F702 /* MyAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE05B9E24AA702CF9B8FDCDE3E9B2512 /* MyAlertViewController.xib */; };
+		50728360F48191A02B7CE5FC170D5C4D /* OrderPlaceSdkPrd-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DB24B04F9CA094C6E0C543114191B8 /* OrderPlaceSdkPrd-dummy.m */; };
+		5AAB13CF326A31678E0DF4454F063E14 /* LBXScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E7427FE0072E2814B86A21987155CF /* LBXScanLineAnimation.m */; };
+		5D78C8746D107ED055892720B785A7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F9C0BDCDCF8DDB557A4D6AB65182FE2 /* OrderPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3FB59F976A2E7A7B280B41DAFA5D92 /* OrderPlace.swift */; };
+		660750734B51B5219A67BD83857724D4 /* LBXScanView.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D4B51AAF0D35D7FBEBE708454155C5 /* LBXScanView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67159D7A62937D055986D611CD89E99F /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB9645FAFEFE262D25277D4A6D2D68 /* OrderViewController.swift */; };
+		72D1A0967A3D976A38F46450FFBF4C48 /* ScannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00CDC09B03C84BA2459A20C708ACC38 /* ScannerService.swift */; };
+		737C8EC2B1AF76717EAA8F3682F322FB /* GpsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAB6614D69E1D4C1279894DE1135D0D /* GpsService.swift */; };
+		7C36409C81D5F5DDFAEF1E88F2F9DC35 /* WechatPayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035CBB3031E50BE83B09A221E89FF5A /* WechatPayService.swift */; };
+		8113EF2C094A7966D04DE09ECE9C2FC8 /* LBXScanVideoZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F47AAD8572D95C5307CEB8B8EE5A2 /* LBXScanVideoZoomView.m */; };
+		8D8215718E18607B512B0A0C4AFB61FA /* StyleDIY.h in Headers */ = {isa = PBXBuildFile; fileRef = 6421CB62B57587187626351D969F291C /* StyleDIY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EFDD1DDE81C93C55B99B81070D55E92 /* LBXScanViewStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = DD083451C7D211E46D0D07013DD01CAC /* LBXScanViewStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB7EC4EF36D6794888AF690D6E1AB72 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = B999FEB725303FFBD6736191974F4AF2 /* Global.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942687B4B11DD6C93703E124140182B1 /* LBXScanVideoZoomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA5639E9F3D389945BBE4CAF55C131C /* LBXScanVideoZoomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ECFF8FDD0266DDDDE909FB1C6DBF9BD /* LBXScanNative.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFD64D30ADB1C00CCDBA1EB994CDF8B /* LBXScanNative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F53FC24BBE94726C618F1FC9EC916B0 /* Pods-test-oc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A70D57E68FCDDF7232C7B4BE5323D75 /* Pods-test-oc-dummy.m */; };
+		A6E7CDC2A6CFB756A831FB76C98D861C /* ApplepayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BCA329DC58AA634CE8D07E28F30C6 /* ApplepayService.swift */; };
+		A91A961AD046A6C9076A4C5C0A5EB452 /* LBXScanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A889D0D3B175E3CFD80385C06E0FB22 /* LBXScanBaseViewController.m */; };
+		B0B12F541FA24BEA53CD14CDB02E4AC4 /* ScannerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0EBF3B3A0F3F5B19A56B50F6A35EE /* ScannerManager.swift */; };
+		B12F1C67EF27E0E03CF7EEB7E238A6B6 /* LBXScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6F2C5F5D417704A9EE18FB3AE2B0D /* LBXScanNetAnimation.m */; };
+		B2CA10584C99BAF91B933595EA929EC1 /* LBXScanTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E78737A824870C0879789D339DEC8A73 /* LBXScanTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3C9F1D6CE97EA0409396532F07EAFB8 /* AigensPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7DCD8FAB1FF616DB698C4F49AA66D /* AigensPresentationController.swift */; };
+		B434DEDE2805F3957B6C1F811371F9B1 /* MyAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57487AE45CE85A46F66D2B17DCA6E34A /* MyAlertViewController.m */; };
+		C3F9A6AEAEFB6319E98AB5985E80E8F6 /* MyAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9109530C74CB8201F8E9EF1B6A53201B /* MyAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E1DE8D8B3F7307ED3995D0772305F9 /* LBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FB42A6F2ACE633E9BC8DFAE1112716 /* LBXScanViewController.m */; };
+		D1758D6B194E1191681392D67AED9F88 /* LBXScanTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C00CFD10E19F7B56B4656C584E113D9 /* LBXScanTypes.m */; };
+		D2C22C640879C26BACA0466C51654A90 /* ConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F882DB178E16940C662720E27C699DC2 /* ConfigService.swift */; };
+		D786F66FFBB5B3DA2D60DFF8E1368ECE /* LBXScanViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CD19B97C82DDBFE9576C14B4A84896 /* LBXScanViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9BE34E91FD836DBA349B13B01DF0BE1 /* AlipayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4500F065E6A7C42A3A055E6DD9DBEF /* AlipayService.swift */; };
+		DFD39E45F75FF756F3FFCA376313F030 /* BridgePasskit.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F7A6D00D83FBCA8AC58CFBA757CA0A /* BridgePasskit.m */; };
+		E2234C2D2161F9FCF3D7114D7A00880B /* LBXScanNative.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1470EFCE5BFB545A90079A600AEC61 /* LBXScanNative.m */; };
+		E38ED8738F9973AA6B88B74676597675 /* ScanLibHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD83593714D24FAA75AD40A6BDACEE1 /* ScanLibHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A57637BF57DE88D1C92DCE4EE3A9CC /* OrderPlaceSdkPrd-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91052E00F8A998C7A6D4A90333DE504C /* OrderPlaceSdkPrd-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2F8641003EE29A58467DE306ADCFAC /* OrderPlaceStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62EA0C33A6F1EC9342CEC00E90F0BB7 /* OrderPlaceStoryboard.storyboard */; };
+		FB776E9C80AA9577227DE3A60C088334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FD9416DA30BCA33D595BC86453D2FA41 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C8AB27765A7BB0FE79888163694E72 /* DrawView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32341D13E55EF4DACC41B94CD1CB3D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		CDC5995E4BC082A495B98CE7A4F27B93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FF2A474C96BC413C87D5DA258E5D56;
+			remoteInfo = OrderPlaceSdkPrd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031B9CF93D64AFE482A38C7ADA2D6609 /* home@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "home@1x.png"; path = "OrderPlaceSdk/Assets/home@1x.png"; sourceTree = "<group>"; };
+		0390EC7CD09250BF75F52945B1DB0CDB /* LBXScanNativeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanNativeViewController.m; path = "OrderPlaceSdk/Classes/scan-lib/DIYScanViewController/Native/LBXScanNativeViewController.m"; sourceTree = "<group>"; };
+		06FB42A6F2ACE633E9BC8DFAE1112716 /* LBXScanViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanViewController.m; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanViewController.m"; sourceTree = "<group>"; };
+		0A70D57E68FCDDF7232C7B4BE5323D75 /* Pods-test-oc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-test-oc-dummy.m"; sourceTree = "<group>"; };
+		0DAB6614D69E1D4C1279894DE1135D0D /* GpsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GpsService.swift; path = OrderPlaceSdk/Classes/GpsService.swift; sourceTree = "<group>"; };
+		0DC28F7FEEF0A87581962F378C59AB55 /* Global.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Global.m; path = "OrderPlaceSdk/Classes/scan-lib/DIYScanViewController/Global.m"; sourceTree = "<group>"; };
+		0DF6F2C5F5D417704A9EE18FB3AE2B0D /* LBXScanNetAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanNetAnimation.m; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanNetAnimation.m"; sourceTree = "<group>"; };
+		0FB0EBF3B3A0F3F5B19A56B50F6A35EE /* ScannerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerManager.swift; path = OrderPlaceSdk/Classes/scan/ScannerManager.swift; sourceTree = "<group>"; };
+		11FC269ABDF42F920BF891B2796BA83F /* WKScriptMsgHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WKScriptMsgHandler.swift; path = OrderPlaceSdk/Classes/WKScriptMsgHandler.swift; sourceTree = "<group>"; };
+		19FED19B1D67E6155C34DC2CF59F68CB /* OrderPlaceSdkPrd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderPlaceSdkPrd.release.xcconfig; sourceTree = "<group>"; };
+		1A889D0D3B175E3CFD80385C06E0FB22 /* LBXScanBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanBaseViewController.m; path = "OrderPlaceSdk/Classes/scan-lib/DIYScanViewController/LBXScanBaseViewController.m"; sourceTree = "<group>"; };
+		276EDEF43C85D358CDC7356CCACF12AD /* OrderPlaceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderPlaceService.swift; path = OrderPlaceSdk/Classes/OrderPlaceService.swift; sourceTree = "<group>"; };
+		2973711B90336A6784675F0601954164 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		2A08FC46ACA4FC51A517779A4F7B0532 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		2A208F88FEEF00F45CE0578BE6F96D0D /* JSInterfaceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSInterfaceService.swift; path = OrderPlaceSdk/Classes/JSInterfaceService.swift; sourceTree = "<group>"; };
+		2EB8307D4F12834572F11CCEBE7CC38E /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		43F042613598BE096373C56CFAEE33F9 /* Pods-test-oc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-test-oc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BC7900BDA3B5DDEBAAA5DBF5547B8B4 /* StyleDIY.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StyleDIY.m; path = "OrderPlaceSdk/Classes/scan-lib/DIYScanViewController/StyleDIY.m"; sourceTree = "<group>"; };
+		4BEB20F095CCA7BC8AE426507173232D /* LBXScanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanView.m; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanView.m"; sourceTree = "<group>"; };
+		531384C838B21456C9929B9DCEA5188E /* OrderPlaceSdkPrd-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderPlaceSdkPrd-prefix.pch"; sourceTree = "<group>"; };
+		55EA0C3818988C8D8521339BE516DEC5 /* back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@3x.png"; path = "OrderPlaceSdk/Assets/back@3x.png"; sourceTree = "<group>"; };
+		57487AE45CE85A46F66D2B17DCA6E34A /* MyAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyAlertViewController.m; path = OrderPlaceSdk/Classes/alert/MyAlertViewController.m; sourceTree = "<group>"; };
+		5A5BE3E1DE3496144EA45213B9D125BA /* CardIOService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardIOService.swift; path = OrderPlaceSdk/Classes/cardIO/CardIOService.swift; sourceTree = "<group>"; };
+		5DD83593714D24FAA75AD40A6BDACEE1 /* ScanLibHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScanLibHeader.h; path = "OrderPlaceSdk/Classes/scan-lib/ScanLibHeader.h"; sourceTree = "<group>"; };
+		6421CB62B57587187626351D969F291C /* StyleDIY.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StyleDIY.h; path = "OrderPlaceSdk/Classes/scan-lib/DIYScanViewController/StyleDIY.h"; sourceTree = "<group>"; };
+		671B20A18E2CED23B122660ACB306B65 /* OrderPlaceSdkPrd-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OrderPlaceSdkPrd-Info.plist"; sourceTree = "<group>"; };
+		679342C5F5FAC5DEC81E64AD121D842F /* back@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@1x.png"; path = "OrderPlaceSdk/Assets/back@1x.png"; sourceTree = "<group>"; };
+		6FA5639E9F3D389945BBE4CAF55C131C /* LBXScanVideoZoomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanVideoZoomView.h; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanVideoZoomView.h"; sourceTree = "<group>"; };
+		6FC4099A497EDB85176E958601B1C9D7 /* home@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "home@2x.png"; path = "OrderPlaceSdk/Assets/home@2x.png"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74C8AB27765A7BB0FE79888163694E72 /* DrawView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawView.swift; path = OrderPlaceSdk/Classes/DrawView.swift; sourceTree = "<group>"; };
+		7701BEE1C339C0DC6E1450928EAE3A62 /* Pods-test-oc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-oc-Info.plist"; sourceTree = "<group>"; };
+		7897E1ED41BB38221CC282EFC5F507D4 /* home@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "home@3x.png"; path = "OrderPlaceSdk/Assets/home@3x.png"; sourceTree = "<group>"; };
+		78E52BE775E294DAA1E6B92A0A128B69 /* CodeScan.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CodeScan.bundle; path = OrderPlaceSdk/Assets/CodeScan.bundle; sourceTree = "<group>"; };
+		83C9999E00D7E56F3D77BFE49C8ABC9C /* LBXScanNetAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanNetAnimation.h; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanNetAnimation.h"; sourceTree = "<group>"; };
+		8648B79C6295C6046BC348842086C62F /* LBXScanBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanBaseViewController.h; path = "OrderPlaceSdk/Classes/scan-lib/DIYScanViewController/LBXScanBaseViewController.h"; sourceTree = "<group>"; };
+		8B3FB59F976A2E7A7B280B41DAFA5D92 /* OrderPlace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderPlace.swift; path = OrderPlaceSdk/Classes/OrderPlace.swift; sourceTree = "<group>"; };
+		8BD5A457CD3CDCFBCFC062FC3A6FB5E3 /* Pods-test-oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test-oc.debug.xcconfig"; sourceTree = "<group>"; };
+		8CCB8C115F8289C0F8FFD06F19A3F83D /* LBXScanLineAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanLineAnimation.h; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanLineAnimation.h"; sourceTree = "<group>"; };
+		8D00D7299F7C1641FB3D1193D28CA780 /* LBXScanNativeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanNativeViewController.h; path = "OrderPlaceSdk/Classes/scan-lib/DIYScanViewController/Native/LBXScanNativeViewController.h"; sourceTree = "<group>"; };
+		9035CBB3031E50BE83B09A221E89FF5A /* WechatPayService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WechatPayService.swift; path = OrderPlaceSdk/Classes/wechatPay/WechatPayService.swift; sourceTree = "<group>"; };
+		90808AE5BC996695AFB8C4957A09A8C2 /* LBXScanViewStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanViewStyle.m; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanViewStyle.m"; sourceTree = "<group>"; };
+		91052E00F8A998C7A6D4A90333DE504C /* OrderPlaceSdkPrd-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OrderPlaceSdkPrd-umbrella.h"; sourceTree = "<group>"; };
+		9109530C74CB8201F8E9EF1B6A53201B /* MyAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyAlertViewController.h; path = OrderPlaceSdk/Classes/alert/MyAlertViewController.h; sourceTree = "<group>"; };
+		93F7DCD8FAB1FF616DB698C4F49AA66D /* AigensPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AigensPresentationController.swift; path = OrderPlaceSdk/Classes/AigensPresentationController.swift; sourceTree = "<group>"; };
+		9432A76E72AEB617FD4FA3C6F050153F /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		9707F13F82B96184FB956ECB0E1626DE /* OrderPlaceSdkPrd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OrderPlaceSdkPrd.framework; path = OrderPlaceSdkPrd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9814CAEC465554AD388501486324B3D0 /* back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "back@2x.png"; path = "OrderPlaceSdk/Assets/back@2x.png"; sourceTree = "<group>"; };
+		9C00CFD10E19F7B56B4656C584E113D9 /* LBXScanTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanTypes.m; path = "OrderPlaceSdk/Classes/scan-lib/lib/LBXScanTypes.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4500F065E6A7C42A3A055E6DD9DBEF /* AlipayService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlipayService.swift; path = OrderPlaceSdk/Classes/alipay/AlipayService.swift; sourceTree = "<group>"; };
+		A5FB9645FAFEFE262D25277D4A6D2D68 /* OrderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderViewController.swift; path = OrderPlaceSdk/Classes/OrderViewController.swift; sourceTree = "<group>"; };
+		A7DB24B04F9CA094C6E0C543114191B8 /* OrderPlaceSdkPrd-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OrderPlaceSdkPrd-dummy.m"; sourceTree = "<group>"; };
+		AA597307F33A7410C95E4F600E5C208F /* Pods-test-oc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-test-oc-umbrella.h"; sourceTree = "<group>"; };
+		AB01FA0D8DD3B0DD2E733EA9BDEA0670 /* Pods-test-oc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-test-oc.modulemap"; sourceTree = "<group>"; };
+		ABFD64D30ADB1C00CCDBA1EB994CDF8B /* LBXScanNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanNative.h; path = "OrderPlaceSdk/Classes/scan-lib/lib/LBXNative/LBXScanNative.h"; sourceTree = "<group>"; };
+		B1C374FFB0A0045F9242DB93685EF7CB /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = OrderPlaceSdk/Assets/AlipaySDK.bundle; sourceTree = "<group>"; };
+		B4D4B51AAF0D35D7FBEBE708454155C5 /* LBXScanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanView.h; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanView.h"; sourceTree = "<group>"; };
+		B999FEB725303FFBD6736191974F4AF2 /* Global.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Global.h; path = "OrderPlaceSdk/Classes/scan-lib/DIYScanViewController/Global.h"; sourceTree = "<group>"; };
+		BF1470EFCE5BFB545A90079A600AEC61 /* LBXScanNative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanNative.m; path = "OrderPlaceSdk/Classes/scan-lib/lib/LBXNative/LBXScanNative.m"; sourceTree = "<group>"; };
+		C08A73B20538C62D2AE1C684AB432CA7 /* Pods-test-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test-oc.release.xcconfig"; sourceTree = "<group>"; };
+		C68BCA329DC58AA634CE8D07E28F30C6 /* ApplepayService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplepayService.swift; path = OrderPlaceSdk/Classes/applepay/ApplepayService.swift; sourceTree = "<group>"; };
+		C715F311414962D9AE6DE5E829AAAE53 /* OrderPlaceSdkPrd.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OrderPlaceSdkPrd.modulemap; sourceTree = "<group>"; };
+		C7CD19B97C82DDBFE9576C14B4A84896 /* LBXScanViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanViewController.h; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanViewController.h"; sourceTree = "<group>"; };
+		C7E7427FE0072E2814B86A21987155CF /* LBXScanLineAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanLineAnimation.m; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanLineAnimation.m"; sourceTree = "<group>"; };
+		CF68C4DC62200AD272A5A3C8F8458289 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		D4F7A6D00D83FBCA8AC58CFBA757CA0A /* BridgePasskit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BridgePasskit.m; path = OrderPlaceSdk/Classes/applepay/BridgePasskit.m; sourceTree = "<group>"; };
+		D62EA0C33A6F1EC9342CEC00E90F0BB7 /* OrderPlaceStoryboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = OrderPlaceStoryboard.storyboard; path = OrderPlaceSdk/Assets/OrderPlaceStoryboard.storyboard; sourceTree = "<group>"; };
+		D8C9CA76081532DA0F3BD3F0DD01EC65 /* OrderPlaceSdkPrd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OrderPlaceSdkPrd.debug.xcconfig; sourceTree = "<group>"; };
+		DD083451C7D211E46D0D07013DD01CAC /* LBXScanViewStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanViewStyle.h; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanViewStyle.h"; sourceTree = "<group>"; };
+		E00CDC09B03C84BA2459A20C708ACC38 /* ScannerService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerService.swift; path = OrderPlaceSdk/Classes/scan/ScannerService.swift; sourceTree = "<group>"; };
+		E0DD3D7161DC068E7DCD13A3DB3F55A5 /* Pods-test-oc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-oc-acknowledgements.plist"; sourceTree = "<group>"; };
+		E29D0CAFD91F1B544D4A861EC7139DA8 /* Pods_test_oc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_test_oc.framework; path = "Pods-test-oc.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B5BFF0635D926CEC9449AE18F8C8AE /* Pods-test-oc-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test-oc-resources.sh"; sourceTree = "<group>"; };
+		E78737A824870C0879789D339DEC8A73 /* LBXScanTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBXScanTypes.h; path = "OrderPlaceSdk/Classes/scan-lib/lib/LBXScanTypes.h"; sourceTree = "<group>"; };
+		E985C79E745ACE031626A45CD9EC568C /* ScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = OrderPlaceSdk/Classes/ScannerViewController.swift; sourceTree = "<group>"; };
+		EF9ADDE8540AD9593473541B28BD1492 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		F208B8264A0BC7D183F7614293DD4980 /* StripeAppleService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StripeAppleService.swift; path = "OrderPlaceSdk/Classes/stripe-apple/StripeAppleService.swift"; sourceTree = "<group>"; };
+		F882DB178E16940C662720E27C699DC2 /* ConfigService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigService.swift; path = OrderPlaceSdk/Classes/ConfigService.swift; sourceTree = "<group>"; };
+		FB8F47AAD8572D95C5307CEB8B8EE5A2 /* LBXScanVideoZoomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBXScanVideoZoomView.m; path = "OrderPlaceSdk/Classes/scan-lib/lib/UI/LBXScanVideoZoomView.m"; sourceTree = "<group>"; };
+		FE05B9E24AA702CF9B8FDCDE3E9B2512 /* MyAlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MyAlertViewController.xib; path = OrderPlaceSdk/Assets/MyAlertViewController.xib; sourceTree = "<group>"; };
+		FEFE8EA45B425E47D02FE6635E39C9FB /* CallbackHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackHandler.swift; path = OrderPlaceSdk/Classes/CallbackHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F8223E42F85F0D2BCDA5F5643B6A5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D78C8746D107ED055892720B785A7A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A741B1FE0F933DCFACC4361101E2B930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB776E9C80AA9577227DE3A60C088334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00323705C26D9249C14E5902B9149108 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1C374FFB0A0045F9242DB93685EF7CB /* AlipaySDK.bundle */,
+				679342C5F5FAC5DEC81E64AD121D842F /* back@1x.png */,
+				9814CAEC465554AD388501486324B3D0 /* back@2x.png */,
+				55EA0C3818988C8D8521339BE516DEC5 /* back@3x.png */,
+				78E52BE775E294DAA1E6B92A0A128B69 /* CodeScan.bundle */,
+				031B9CF93D64AFE482A38C7ADA2D6609 /* home@1x.png */,
+				6FC4099A497EDB85176E958601B1C9D7 /* home@2x.png */,
+				7897E1ED41BB38221CC282EFC5F507D4 /* home@3x.png */,
+				FE05B9E24AA702CF9B8FDCDE3E9B2512 /* MyAlertViewController.xib */,
+				D62EA0C33A6F1EC9342CEC00E90F0BB7 /* OrderPlaceStoryboard.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		27DA6FC4CB300C97580CBF3D7D993C2C /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2A08FC46ACA4FC51A517779A4F7B0532 /* WechatAuthSDK.h */,
+				9432A76E72AEB617FD4FA3C6F050153F /* WXApi.h */,
+				CF68C4DC62200AD272A5A3C8F8458289 /* WXApiObject.h */,
+				E5EA05EFEC5015E6D96908701081C828 /* Frameworks */,
+				AA2B1E6B7B657E5A819DC73CFBE3A596 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		3243612671C5A1D52954CED233867A76 /* OrderPlaceSdkPrd */ = {
+			isa = PBXGroup;
+			children = (
+				DD2A65BE452F2D7C9A0FFD7331E982DC /* Core */,
+				64BE8B12BCBA35213AD56BD9F9655BD6 /* Support Files */,
+			);
+			name = OrderPlaceSdkPrd;
+			path = OrderPlaceSdkPrd;
+			sourceTree = "<group>";
+		};
+		50042BB1CB4D112BD8BFCE77BBE2F3DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3243612671C5A1D52954CED233867A76 /* OrderPlaceSdkPrd */,
+				27DA6FC4CB300C97580CBF3D7D993C2C /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64BE8B12BCBA35213AD56BD9F9655BD6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C715F311414962D9AE6DE5E829AAAE53 /* OrderPlaceSdkPrd.modulemap */,
+				A7DB24B04F9CA094C6E0C543114191B8 /* OrderPlaceSdkPrd-dummy.m */,
+				671B20A18E2CED23B122660ACB306B65 /* OrderPlaceSdkPrd-Info.plist */,
+				531384C838B21456C9929B9DCEA5188E /* OrderPlaceSdkPrd-prefix.pch */,
+				91052E00F8A998C7A6D4A90333DE504C /* OrderPlaceSdkPrd-umbrella.h */,
+				D8C9CA76081532DA0F3BD3F0DD01EC65 /* OrderPlaceSdkPrd.debug.xcconfig */,
+				19FED19B1D67E6155C34DC2CF59F68CB /* OrderPlaceSdkPrd.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OrderPlaceSdkPrd";
+			sourceTree = "<group>";
+		};
+		7620A43D83B010018E4DA8FDADE48080 /* Pods-test-oc */ = {
+			isa = PBXGroup;
+			children = (
+				AB01FA0D8DD3B0DD2E733EA9BDEA0670 /* Pods-test-oc.modulemap */,
+				43F042613598BE096373C56CFAEE33F9 /* Pods-test-oc-acknowledgements.markdown */,
+				E0DD3D7161DC068E7DCD13A3DB3F55A5 /* Pods-test-oc-acknowledgements.plist */,
+				0A70D57E68FCDDF7232C7B4BE5323D75 /* Pods-test-oc-dummy.m */,
+				7701BEE1C339C0DC6E1450928EAE3A62 /* Pods-test-oc-Info.plist */,
+				E3B5BFF0635D926CEC9449AE18F8C8AE /* Pods-test-oc-resources.sh */,
+				AA597307F33A7410C95E4F600E5C208F /* Pods-test-oc-umbrella.h */,
+				8BD5A457CD3CDCFBCFC062FC3A6FB5E3 /* Pods-test-oc.debug.xcconfig */,
+				C08A73B20538C62D2AE1C684AB432CA7 /* Pods-test-oc.release.xcconfig */,
+			);
+			name = "Pods-test-oc";
+			path = "Target Support Files/Pods-test-oc";
+			sourceTree = "<group>";
+		};
+		AA2B1E6B7B657E5A819DC73CFBE3A596 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EB8307D4F12834572F11CCEBE7CC38E /* WechatOpenSDK.debug.xcconfig */,
+				EF9ADDE8540AD9593473541B28BD1492 /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				50042BB1CB4D112BD8BFCE77BBE2F3DD /* Pods */,
+				F1A22574FC8046BF0F74E83C2AC219F8 /* Products */,
+				F86A974C10CA4BB25D595440F9AC1F21 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2A65BE452F2D7C9A0FFD7331E982DC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93F7DCD8FAB1FF616DB698C4F49AA66D /* AigensPresentationController.swift */,
+				9F4500F065E6A7C42A3A055E6DD9DBEF /* AlipayService.swift */,
+				C68BCA329DC58AA634CE8D07E28F30C6 /* ApplepayService.swift */,
+				D4F7A6D00D83FBCA8AC58CFBA757CA0A /* BridgePasskit.m */,
+				FEFE8EA45B425E47D02FE6635E39C9FB /* CallbackHandler.swift */,
+				5A5BE3E1DE3496144EA45213B9D125BA /* CardIOService.swift */,
+				F882DB178E16940C662720E27C699DC2 /* ConfigService.swift */,
+				74C8AB27765A7BB0FE79888163694E72 /* DrawView.swift */,
+				B999FEB725303FFBD6736191974F4AF2 /* Global.h */,
+				0DC28F7FEEF0A87581962F378C59AB55 /* Global.m */,
+				0DAB6614D69E1D4C1279894DE1135D0D /* GpsService.swift */,
+				2A208F88FEEF00F45CE0578BE6F96D0D /* JSInterfaceService.swift */,
+				8648B79C6295C6046BC348842086C62F /* LBXScanBaseViewController.h */,
+				1A889D0D3B175E3CFD80385C06E0FB22 /* LBXScanBaseViewController.m */,
+				8CCB8C115F8289C0F8FFD06F19A3F83D /* LBXScanLineAnimation.h */,
+				C7E7427FE0072E2814B86A21987155CF /* LBXScanLineAnimation.m */,
+				ABFD64D30ADB1C00CCDBA1EB994CDF8B /* LBXScanNative.h */,
+				BF1470EFCE5BFB545A90079A600AEC61 /* LBXScanNative.m */,
+				8D00D7299F7C1641FB3D1193D28CA780 /* LBXScanNativeViewController.h */,
+				0390EC7CD09250BF75F52945B1DB0CDB /* LBXScanNativeViewController.m */,
+				83C9999E00D7E56F3D77BFE49C8ABC9C /* LBXScanNetAnimation.h */,
+				0DF6F2C5F5D417704A9EE18FB3AE2B0D /* LBXScanNetAnimation.m */,
+				E78737A824870C0879789D339DEC8A73 /* LBXScanTypes.h */,
+				9C00CFD10E19F7B56B4656C584E113D9 /* LBXScanTypes.m */,
+				6FA5639E9F3D389945BBE4CAF55C131C /* LBXScanVideoZoomView.h */,
+				FB8F47AAD8572D95C5307CEB8B8EE5A2 /* LBXScanVideoZoomView.m */,
+				B4D4B51AAF0D35D7FBEBE708454155C5 /* LBXScanView.h */,
+				4BEB20F095CCA7BC8AE426507173232D /* LBXScanView.m */,
+				C7CD19B97C82DDBFE9576C14B4A84896 /* LBXScanViewController.h */,
+				06FB42A6F2ACE633E9BC8DFAE1112716 /* LBXScanViewController.m */,
+				DD083451C7D211E46D0D07013DD01CAC /* LBXScanViewStyle.h */,
+				90808AE5BC996695AFB8C4957A09A8C2 /* LBXScanViewStyle.m */,
+				9109530C74CB8201F8E9EF1B6A53201B /* MyAlertViewController.h */,
+				57487AE45CE85A46F66D2B17DCA6E34A /* MyAlertViewController.m */,
+				8B3FB59F976A2E7A7B280B41DAFA5D92 /* OrderPlace.swift */,
+				276EDEF43C85D358CDC7356CCACF12AD /* OrderPlaceService.swift */,
+				A5FB9645FAFEFE262D25277D4A6D2D68 /* OrderViewController.swift */,
+				5DD83593714D24FAA75AD40A6BDACEE1 /* ScanLibHeader.h */,
+				0FB0EBF3B3A0F3F5B19A56B50F6A35EE /* ScannerManager.swift */,
+				E00CDC09B03C84BA2459A20C708ACC38 /* ScannerService.swift */,
+				E985C79E745ACE031626A45CD9EC568C /* ScannerViewController.swift */,
+				F208B8264A0BC7D183F7614293DD4980 /* StripeAppleService.swift */,
+				6421CB62B57587187626351D969F291C /* StyleDIY.h */,
+				4BC7900BDA3B5DDEBAAA5DBF5547B8B4 /* StyleDIY.m */,
+				9035CBB3031E50BE83B09A221E89FF5A /* WechatPayService.swift */,
+				11FC269ABDF42F920BF891B2796BA83F /* WKScriptMsgHandler.swift */,
+				00323705C26D9249C14E5902B9149108 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E5EA05EFEC5015E6D96908701081C828 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2973711B90336A6784675F0601954164 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1A22574FC8046BF0F74E83C2AC219F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9707F13F82B96184FB956ECB0E1626DE /* OrderPlaceSdkPrd.framework */,
+				E29D0CAFD91F1B544D4A861EC7139DA8 /* Pods_test_oc.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F86A974C10CA4BB25D595440F9AC1F21 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7620A43D83B010018E4DA8FDADE48080 /* Pods-test-oc */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14C8B17496F2B304B17D3BC1FB53AA8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB7EC4EF36D6794888AF690D6E1AB72 /* Global.h in Headers */,
+				148E5A8552589B7B72999776C9D32E70 /* LBXScanBaseViewController.h in Headers */,
+				2D7879E3A6650900E4F92D01D638559A /* LBXScanLineAnimation.h in Headers */,
+				9ECFF8FDD0266DDDDE909FB1C6DBF9BD /* LBXScanNative.h in Headers */,
+				054257DCE5541C4C3C496376C8880648 /* LBXScanNativeViewController.h in Headers */,
+				2964E8A3B7AFCCEC55FBB3F30E927200 /* LBXScanNetAnimation.h in Headers */,
+				B2CA10584C99BAF91B933595EA929EC1 /* LBXScanTypes.h in Headers */,
+				942687B4B11DD6C93703E124140182B1 /* LBXScanVideoZoomView.h in Headers */,
+				660750734B51B5219A67BD83857724D4 /* LBXScanView.h in Headers */,
+				D786F66FFBB5B3DA2D60DFF8E1368ECE /* LBXScanViewController.h in Headers */,
+				8EFDD1DDE81C93C55B99B81070D55E92 /* LBXScanViewStyle.h in Headers */,
+				C3F9A6AEAEFB6319E98AB5985E80E8F6 /* MyAlertViewController.h in Headers */,
+				E9A57637BF57DE88D1C92DCE4EE3A9CC /* OrderPlaceSdkPrd-umbrella.h in Headers */,
+				E38ED8738F9973AA6B88B74676597675 /* ScanLibHeader.h in Headers */,
+				8D8215718E18607B512B0A0C4AFB61FA /* StyleDIY.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76F846710F7ACAF7D0D610BE6AEAB3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341701D84E3C4E96C231F1E88EDF99EC /* Pods-test-oc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A220C2A0E8120A75F1E096F16B1ED9E /* Pods-test-oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD01DF90F3520C0092683729FA70E916 /* Build configuration list for PBXNativeTarget "Pods-test-oc" */;
+			buildPhases = (
+				F76F846710F7ACAF7D0D610BE6AEAB3D /* Headers */,
+				381B0DB63E2E4E8829EDCB96CEC63C6B /* Sources */,
+				8F8223E42F85F0D2BCDA5F5643B6A5E4 /* Frameworks */,
+				C610D72EEB9EE83F75A42207031062DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B67629DC5CDD6404B726495F07C0D6D /* PBXTargetDependency */,
+				C0D8FAF6B946C0139A685697382D4DAF /* PBXTargetDependency */,
+			);
+			name = "Pods-test-oc";
+			productName = "Pods-test-oc";
+			productReference = E29D0CAFD91F1B544D4A861EC7139DA8 /* Pods_test_oc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3FF2A474C96BC413C87D5DA258E5D56 /* OrderPlaceSdkPrd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8673C7249DB3D1355BE3690B075B630 /* Build configuration list for PBXNativeTarget "OrderPlaceSdkPrd" */;
+			buildPhases = (
+				14C8B17496F2B304B17D3BC1FB53AA8B /* Headers */,
+				C4F424972D652F2D5FE459929641A735 /* Sources */,
+				A741B1FE0F933DCFACC4361101E2B930 /* Frameworks */,
+				899857BB07EA34209A1F4067DAE7E251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderPlaceSdkPrd;
+			productName = OrderPlaceSdkPrd;
+			productReference = 9707F13F82B96184FB956ECB0E1626DE /* OrderPlaceSdkPrd.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F1A22574FC8046BF0F74E83C2AC219F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3FF2A474C96BC413C87D5DA258E5D56 /* OrderPlaceSdkPrd */,
+				6A220C2A0E8120A75F1E096F16B1ED9E /* Pods-test-oc */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		899857BB07EA34209A1F4067DAE7E251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F41B161C375BA8BC939AFE15E67F702 /* MyAlertViewController.xib in Resources */,
+				EF2F8641003EE29A58467DE306ADCFAC /* OrderPlaceStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C610D72EEB9EE83F75A42207031062DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		381B0DB63E2E4E8829EDCB96CEC63C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F53FC24BBE94726C618F1FC9EC916B0 /* Pods-test-oc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F424972D652F2D5FE459929641A735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C9F1D6CE97EA0409396532F07EAFB8 /* AigensPresentationController.swift in Sources */,
+				D9BE34E91FD836DBA349B13B01DF0BE1 /* AlipayService.swift in Sources */,
+				A6E7CDC2A6CFB756A831FB76C98D861C /* ApplepayService.swift in Sources */,
+				DFD39E45F75FF756F3FFCA376313F030 /* BridgePasskit.m in Sources */,
+				1ECE91B3337AED3ABCDE69EC9797171B /* CallbackHandler.swift in Sources */,
+				10F0CCB4B238FAD0D3EE65031F7AA8DE /* CardIOService.swift in Sources */,
+				D2C22C640879C26BACA0466C51654A90 /* ConfigService.swift in Sources */,
+				FD9416DA30BCA33D595BC86453D2FA41 /* DrawView.swift in Sources */,
+				036697155F8557E8ED29FBF2858701F7 /* Global.m in Sources */,
+				737C8EC2B1AF76717EAA8F3682F322FB /* GpsService.swift in Sources */,
+				4949F4DB287DB854AFFB451472CF10CA /* JSInterfaceService.swift in Sources */,
+				A91A961AD046A6C9076A4C5C0A5EB452 /* LBXScanBaseViewController.m in Sources */,
+				5AAB13CF326A31678E0DF4454F063E14 /* LBXScanLineAnimation.m in Sources */,
+				E2234C2D2161F9FCF3D7114D7A00880B /* LBXScanNative.m in Sources */,
+				12868F437A75F36235A699AC6F266A84 /* LBXScanNativeViewController.m in Sources */,
+				B12F1C67EF27E0E03CF7EEB7E238A6B6 /* LBXScanNetAnimation.m in Sources */,
+				D1758D6B194E1191681392D67AED9F88 /* LBXScanTypes.m in Sources */,
+				8113EF2C094A7966D04DE09ECE9C2FC8 /* LBXScanVideoZoomView.m in Sources */,
+				1852DAC3A1BCD4B0C86FB838A29C69FB /* LBXScanView.m in Sources */,
+				C6E1DE8D8B3F7307ED3995D0772305F9 /* LBXScanViewController.m in Sources */,
+				3145C56FA6EB1E73810CA4828302AE37 /* LBXScanViewStyle.m in Sources */,
+				B434DEDE2805F3957B6C1F811371F9B1 /* MyAlertViewController.m in Sources */,
+				5F9C0BDCDCF8DDB557A4D6AB65182FE2 /* OrderPlace.swift in Sources */,
+				50728360F48191A02B7CE5FC170D5C4D /* OrderPlaceSdkPrd-dummy.m in Sources */,
+				2BD1A79085794385052E559B63CA07D9 /* OrderPlaceService.swift in Sources */,
+				67159D7A62937D055986D611CD89E99F /* OrderViewController.swift in Sources */,
+				B0B12F541FA24BEA53CD14CDB02E4AC4 /* ScannerManager.swift in Sources */,
+				72D1A0967A3D976A38F46450FFBF4C48 /* ScannerService.swift in Sources */,
+				16E07DCC82EFEE4C864DC30D3EDBCFDC /* ScannerViewController.swift in Sources */,
+				099A70F4E7992998B8E683AC7B00D247 /* StripeAppleService.swift in Sources */,
+				11683B1FB73313E0214B284223187CEB /* StyleDIY.m in Sources */,
+				7C36409C81D5F5DDFAEF1E88F2F9DC35 /* WechatPayService.swift in Sources */,
+				31D37FF7A2FD9F3D0E2433D364AB30B5 /* WKScriptMsgHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B67629DC5CDD6404B726495F07C0D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OrderPlaceSdkPrd;
+			target = D3FF2A474C96BC413C87D5DA258E5D56 /* OrderPlaceSdkPrd */;
+			targetProxy = CDC5995E4BC082A495B98CE7A4F27B93 /* PBXContainerItemProxy */;
+		};
+		C0D8FAF6B946C0139A685697382D4DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 32341D13E55EF4DACC41B94CD1CB3D2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E1C3459637B9CD1624928B806D1C837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD5A457CD3CDCFBCFC062FC3A6FB5E3 /* Pods-test-oc.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-test-oc/Pods-test-oc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-test-oc/Pods-test-oc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9ADDE8540AD9593473541B28BD1492 /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B260CA79D7A49CC067957B8D163D20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08A73B20538C62D2AE1C684AB432CA7 /* Pods-test-oc.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-test-oc/Pods-test-oc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-test-oc/Pods-test-oc.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89AA05E5772D8CFA0728F15D9E421192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FED19B1D67E6155C34DC2CF59F68CB /* OrderPlaceSdkPrd.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderPlaceSdkPrd/OrderPlaceSdkPrd-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderPlaceSdkPrd/OrderPlaceSdkPrd-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/OrderPlaceSdkPrd/OrderPlaceSdkPrd.modulemap";
+				PRODUCT_MODULE_NAME = OrderPlaceSdkPrd;
+				PRODUCT_NAME = OrderPlaceSdkPrd;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C66AF4537E788756A8F6DAEF0CA2AAA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C9CA76081532DA0F3BD3F0DD01EC65 /* OrderPlaceSdkPrd.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OrderPlaceSdkPrd/OrderPlaceSdkPrd-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OrderPlaceSdkPrd/OrderPlaceSdkPrd-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/OrderPlaceSdkPrd/OrderPlaceSdkPrd.modulemap";
+				PRODUCT_MODULE_NAME = OrderPlaceSdkPrd;
+				PRODUCT_NAME = OrderPlaceSdkPrd;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E9034C3C8B274D7A7C62065B44D4B763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EB8307D4F12834572F11CCEBE7CC38E /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9034C3C8B274D7A7C62065B44D4B763 /* Debug */,
+				19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8673C7249DB3D1355BE3690B075B630 /* Build configuration list for PBXNativeTarget "OrderPlaceSdkPrd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66AF4537E788756A8F6DAEF0CA2AAA6 /* Debug */,
+				89AA05E5772D8CFA0728F15D9E421192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD01DF90F3520C0092683729FA70E916 /* Build configuration list for PBXNativeTarget "Pods-test-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1C3459637B9CD1624928B806D1C837 /* Debug */,
+				6B260CA79D7A49CC067957B8D163D20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
